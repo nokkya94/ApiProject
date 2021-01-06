@@ -1,0 +1,1 @@
+file:src/test/resource/features/verifyTheCartAllFunc.feature:36

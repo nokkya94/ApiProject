@@ -1,0 +1,171 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8819228000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is launching the ecommerceapp",
+            "match": {
+              "location": "eCommerce_app.stepDef.stepDefOneItemCart.user_is_launching_the_ecommerceapp()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9290783300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "logs in successfully",
+            "match": {
+              "location": "eCommerce_app.stepDef.stepDefOneItemCart.logs_in_successfully()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-06T17:59:20.724Z",
+        "line": 36,
+        "name": "user is completing a purchase",
+        "description": "",
+        "id": "verify-the-cart-using-all-possible-testing;user-is-completing-a-purchase",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8720058800,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user adds two items in the cart",
+            "match": {
+              "location": "eCommerce_app.stepDef.stepDefOneItemCart.user_adds_two_items_in_the_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1574241000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "verify the items in the cart",
+            "match": {
+              "location": "eCommerce_app.stepDef.stepDefOneItemCart.verify_the_items_in_the_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 135636900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "verify the prices in the cart",
+            "match": {
+              "location": "eCommerce_app.stepDef.stepDefOneItemCart.verify_the_prices_in_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 145143100,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "verify the total price is correct",
+            "match": {
+              "location": "eCommerce_app.stepDef.stepDefOneItemCart.verify_the_total_price_is_correct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 193485800,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user taps on check box to receive emails",
+            "match": {
+              "location": "eCommerce_app.stepDef.stepDefOneItemCart.user_taps_on_check_box_to_receive_emails()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 637712800,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user taps on button to visit website to complete purchase",
+            "match": {
+              "location": "eCommerce_app.stepDef.stepDefOneItemCart.user_taps_on_button_to_visit_website_to_complete_purchase()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6199564500,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user navigate to techtorial website from a mobile browser",
+            "match": {
+              "location": "eCommerce_app.stepDef.stepDefOneItemCart.user_navigate_to_techtorial_website_from_a_mobile_browser()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-C6CR7I98\u0027, ip: \u0027192.168.0.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002714.0.2\u0027\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: C:\\Users\\tanas\\Downloads\\Ap..., appPackage: com.androidsample.generalstore, databaseEnabled: false, desired: {app: C:\\Users\\tanas\\Downloads\\Ap..., deviceName: Pixel 2 API 28, newCommandTimeout: 300, platform: ANDROID, platformName: android}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 300, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 9, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: d90909b2-896f-4c64-9351-a9217ae70074\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\"slide-text\"]/h1}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)\r\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)\r\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)\r\n\tat io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)\r\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\r\n\tat eCommerce_app.stepDef.stepDefOneItemCart.verify_that_its_on_the_home_page_of_techtorial_website(stepDefOneItemCart.java:299)\r\n\tat ✽.verify that its on the home page of techtorial website(file:///C:/Users/tanas/Downloads/AppiumProject/src/test/resource/features/verifyTheCartAllFunc.feature:44)\r\n",
+              "duration": 15414787300,
+              "status": "failed"
+            },
+            "line": 44,
+            "name": "verify that its on the home page of techtorial website",
+            "match": {
+              "location": "eCommerce_app.stepDef.stepDefOneItemCart.verify_that_its_on_the_home_page_of_techtorial_website()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CartFunctionality"
+          },
+          {
+            "name": "@CompletePurchaseAndTapOnCheckBox"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the cart using all possible testing",
+    "description": "",
+    "id": "verify-the-cart-using-all-possible-testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/resource/features/verifyTheCartAllFunc.feature",
+    "tags": [
+      {
+        "name": "@CartFunctionality",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
